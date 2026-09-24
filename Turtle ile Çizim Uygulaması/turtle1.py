@@ -1,0 +1,21 @@
+Python 3.11.4 (tags/v3.11.4:d2340ef, Jun  7 2023, 05:45:37) [MSC v.1934 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> import turtle
+>>> turtle.position()
+(0.00,0.00)
+>>> turtle.pos()
+(0.00,0.00)
+>>> turtle.goto(100,100)
+>>> turtle.pos()
+(100.00,100.00)
+>>> turtle.setposition(-50,-50)
+>>> turtle.pos()
+(-50.00,-50.00)
+>>> turtle.setpos(0,0)
+>>> turtle.pos()
+(0.00,0.00)
+>>> turtle.setposition(-50,-50)
+>>> turtle.reset()
+>>> turtle.pos()
+(0.00,0.00)
+>>> turtle.home()
